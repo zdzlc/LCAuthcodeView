@@ -31,8 +31,8 @@ LCAuthcodeView is derived from UIView,which can generate random auth code
   
     Whatever the method you create the view,once the view  appear,you can see the auth code,touch it to change another auth code.
 4. Call <font color=#3399aa>-(BOOL)verifyString:(NSString*)inputCode</font> method to verify the code which user input
-5. Set the property <font color=#3399aa>usingRandomBackgroundColor</font> to YES to allow change random background color each time generate auth code, its value is NO by default;
-6. Set the property <font color=#3399aa>codeTextLength</font> to change the lenth of auth code,4 by default.  
+5. (Optional) Set the property <font color=#3399aa>usingRandomBackgroundColor</font> to YES to allow change random background color each time generate auth code, its value is NO by default;
+6. (Optional) Set the property <font color=#3399aa>codeTextLength</font> to change the lenth of auth code,4 by default.  
   
   
 
@@ -66,7 +66,7 @@ LCAuthcodeView继承至UIView，能够随机生成验证码
 
    无论上述哪种方法，当它呈现在界面上的时候，就会显示4位的验证码，触摸即可换一个验证码
 4. 调用 <font color=#3399aa>-(BOOL)verifyString:(NSString*)inputCode</font>方法即可验证用户输入的验证码和View上显示的是否一致  
-5. 设置属性<font color=#3399aa>usingRandomBackgroundColor</font>为YES即可生成随机背景色，默认为固定不变的背景色  
-6. 设置<font color=#3399aa>codeTextLength</font>，即可改变验证码长度，默认为4个字符  
+5. （可选）设置属性<font color=#3399aa>usingRandomBackgroundColor</font>为YES即可生成随机背景色，默认为固定不变的背景色  
+6. （可选）设置<font color=#3399aa>codeTextLength</font>，即可改变验证码长度，默认为4个字符  
   
   
