@@ -39,7 +39,7 @@ LCAuthcodeView is derived from UIView,which can generate random auth code
 
 #LCAuthcodeView  
 ####概述  
-LCAuthcodeView继承至UIView，能够随机生成验证码 
+LCAuthcodeView继承至UIView，能够随机生成验证码  
 ![screen shot](https://github.com/zdzlc/LCAuthcodeView/raw/master/screenshot.png)  
 ####特性  
 
